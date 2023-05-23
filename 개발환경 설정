@@ -1,0 +1,42 @@
+파이썬으로 프로그래밍을 할 때는 크게 3가지 방법이 있다.
+
+1. 텍스트 에디터(Sublime Text, ATOM), 커맨드 라인 사용
+가볍지만 툴이 많지 않음
+
+2. IDE(Integrated Development Environment) 사용
+파이참
+통합 개발 환경이라서 디버깅 툴, 자동 완성, 코드 스타일 교정해줌
+소프트웨어가 무거움, 익히기 어려움, 의존성이 커짐
+
+3. 주피터 노트북
+파이썬, R, Julia 3가지 언어 지원함
+결과물을 바로 볼 수 있음, 여러 단계로 나눠서 결과물을 볼 수 있음, 편리한 마크다운 가능
+제공되는 툴이 적음, 버전 관리와 협업이 어려움 -> 큰 규모의 프로젝트에서 잘 사용 x
+
+jupyter 단축키
+commant mode에서 a를 누르면 위에 새로은 cell 생성됨
+b를 누르면 밑에 새로운 cell 생성됨
+dd를 누르면 cell이 삭제됨
+
+Ctrl-Enter: Run Cells
+
+Shift-Enter: Run Cells and Select Below
+
+Alt-Enter: Run Cells and Insert Below
+
+jupyter 실행
+첫번째 cell에서 정의한 변수를 두번째 cell에서도 사용할 수 있다.(변수나 함수 등을 공유함)
+셀들이 같은 세션을 공유하지만 실행은 독립적으로 된다.
+
+Run All
+
+모든 셀들을 한꺼번에 실행시키고 싶은 경우.
+Run All은 셀들을 모두 다시 실행시켰을 뿐, 이전에 사용하던 세션은 그대로 사용중이다.
+
+Restart & Run All
+
+세션을 새롭게 시작하고 싶은 경우.
+Kernel에서 Restart & Run All을 누르면 모든 셀이 새로운 세션에서 시작한다.
+
+Jupyter Notebook에 설명글 쓰기
+셀 타입을 Code가 아니라 Markdown으로 바꾸기
